@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     public static String differentView(double term) {
         if (term % 1 == 0 && term < 10000 && term > -10000) {
             return String.valueOf((int) term);
